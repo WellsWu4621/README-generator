@@ -1,2 +1,2 @@
 # README-generator
-README was made with
+README was made with this application

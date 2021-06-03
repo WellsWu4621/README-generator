@@ -1,7 +1,7 @@
 // function to generate markdown for README
 const generateMarkdown = (data) => {
-  return `# ${data.title}
-  ${data.badge}
+  return `# ${data.title}  
+  ![License Badge](https://img.shields.io/badge/license-${data.license}-green)
   
   ## Description:  
   ${data.description}
@@ -21,20 +21,20 @@ const generateMarkdown = (data) => {
 
   ## Usage:  
   ${data.usage}
-
-
-
+  
   ## License:  
-  ${data.license}
-
+  Licensed under [${data.license}](./LICENSE)
+  
   ## Contributing:  
   ${data.contributing}
-
+  
   ## Tests:  
   ${data.tests}
 
+  ![${data.title}](${data.imagepath})
+  
   ## Questions:  
-  ${data.questions}
+  Contact Me: [Github](https://gist.github.com/${data.githubuser}), or Email Me @${data.email}  
 
 
 `;
