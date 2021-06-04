@@ -1,8 +1,9 @@
-# h  
+# README-generator  
   ![License Badge](https://img.shields.io/badge/license-MIT-green)
+  [IMPORTANT](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
   
   ## Description:  
-  h
+  This project will create a basic README.md based on user input. It will prompt the user to answer several questions, then create a README based on those user inputs. 
 
   ## Table of Contents:  
   - [Description](##-description)
@@ -15,23 +16,27 @@
   - [Questions](##-questions)
 
   ## Installation:  
-  h
+  1. go to the Github repo. 2. Clone the repo. 3. install the dependencies. 4. Run with: node index.js in the terminal
 
   ## Usage:  
-  h
+  Run the program, then answer the provided prompts and the program will generate a README
+
+  ![README-generator](./assets/images/screenshotinquirer.png)(./assets/images/videotutorial.mp4)
   
   ## License:  
   Licensed under [MIT](./LICENSE)
   
   ## Contributing:  
-  me
+  This was a solo project by Wells Wu. Dependencies required: npm Inquirer and FS. Code based of off instructor Quinton Fults' example
   
   ## Tests:  
-  weather
+  Creating a README for this program. The README provided on the GitHub was made via this program.
 
-  ![h](./assets/images/screenshot1.png)
+  ![README-generator](./assets/images/screenshothtml.png)  
+  ![This README](./assets/images/READMEcreation.png)
   
   ## Questions:  
   Contact Me: [Github](https://gist.github.com/WellsWu4621), or Email Me @wellswu.dev@gmail.com  
+  Repository link: [README-generator](https://github.com/WellsWu4621/README-generator)
 
 

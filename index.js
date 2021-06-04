@@ -36,11 +36,6 @@ const questions = [
     message: 'Who contributed to your project?'
   },
   {
-    type: 'confirm',
-    name: 'imagecheck',
-    message: 'Do you have an image displaying how your product works?'
-  },
-  {
     type: 'input',
     name: 'tests',
     message: 'Please describe a use of the product.'
