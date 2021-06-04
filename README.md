@@ -21,7 +21,8 @@
   ## Usage:  
   Run the program, then answer the provided prompts and the program will generate a README
 
-  ![README-generator](./assets/images/screenshotinquirer.png)(./assets/images/videotutorial.mp4)
+  ![README-generator](./assets/images/screenshotinquirer.png)
+  ![README-generator Video](./assets/images/videotutorial.mp4)
   
   ## License:  
   Licensed under [MIT](./LICENSE)
