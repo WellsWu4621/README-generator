@@ -6,14 +6,14 @@
   This project will create a basic README.md based on user input. It will prompt the user to answer several questions, then create a README based on those user inputs. 
 
   ## Table of Contents:  
-  - [Description](#-description)
-  - [Table of Contents](#-table-of-contents)
-  - [Installation](#-installation)
-  - [Usage](#-usage)
-  - [License](#-license)
-  - [Contributing](#-contributing)
-  - [Tests](#-tests)
-  - [Questions](#-questions)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation:  
   1. go to the Github repo. 2. Clone the repo. 3. install the dependencies. 4. Run with: node index.js in the terminal
