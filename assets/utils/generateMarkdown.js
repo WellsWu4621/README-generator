@@ -35,6 +35,7 @@ const generateMarkdown = (data) => {
   
   ## Questions:  
   Contact Me: [Github](https://gist.github.com/${data.githubuser}), or Email Me @${data.email}  
+  Repository Link [${data.title}](${data.repo})
 
 
 `;

@@ -28,7 +28,7 @@
   Licensed under [MIT](./LICENSE)
   
   ## Contributing:  
-  This was a solo project by Wells Wu. Dependencies required: npm Inquirer and FS. Code based of off instructor Quinton Fults' example
+  This was a solo project by Wells Wu. Dependencies required: npm Inquirer and FS, and path. Code based of off instructor Quinton Fults' example
   
   ## Tests:  
   Creating a README for this program. The README provided on the GitHub was made via this program.

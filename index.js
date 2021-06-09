@@ -1,7 +1,10 @@
 const { prompt } = require('inquirer')
 const { writeFile } = require('fs')
 const generateMarkdown = require('./assets/utils/generateMarkdown')
+const path = require("path");
 
+const OUTPUT_DIR = path.resolve(__dirname, "output");
+const outputPath = path.join(OUTPUT_DIR, "README.md");
 // array of questions for user
 const questions = [
   {
@@ -55,6 +58,11 @@ const questions = [
     name: 'email',
     message: 'What is your email?'
   },
+  {
+    type: 'input',
+    name: 'repo',
+    message: 'What is your Repository Link?'
+  },
 ];
 
 // function to write README file
@@ -69,7 +77,7 @@ const writeToFile = (fileName, data) => {
 function init() {
   prompt(questions)
     .then(info => {
-      writeToFile('README.md', generateMarkdown(info))
+      writeToFile(outputPath, generateMarkdown(info))
     })
     .catch(err => console.log(err))
 }
